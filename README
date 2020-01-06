@@ -1,0 +1,12 @@
+This Isotherm generator emulates the spreadsheet used by the USDA for isotherm generation. 
+https://www.ars.usda.gov/midwest-area/bowling-green-ky/food-animal-environmental-systems-research/people/carl-bolster/sorption-isotherm-spreadsheet/
+This Isotherm generator has been verified over the last decade and has proven a useful tool.
+This python performs a similar parameter fitting /optimization routine as the USDA spreadsheet but has several key benefits.
+1) A GUI allows for ease of use.
+2) Multiple isotherms for a single dataset can be produced all at once.
+3) Output information on parameter fitting is compiled in an easy to read .csv
+4) The .exe compiled file allows the user to run the program on any computer without an programming knowledge
+5) The open sourced python code allows advanced users to modify and add functionality to code.
+6) Plots with approximate 95% confidence intervals are produced for isotherms
+7) Parameter optimization of the python solver is not highly dependent on the initial guess of the user.
+8) Datasets can be quickly/easily uploaded into the program.
